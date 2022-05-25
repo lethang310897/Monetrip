@@ -1,0 +1,171 @@
+/* UTILITIES */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+:root {
+    --bg-color: #ECF6FF;
+    --text-color: #03294E;
+    --dr-color: #5DEED5;
+    --style-color: #1D8DFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* NAVBAR STYLING STARTS */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.nav-links a {
+    color: var(--text-color);
+}
+
+
+/* LOGO */
+
+.logo {
+    font-size: 32px;
+    margin-left: 20rem;
+}
+
+
+/* NAVBAR MENU */
+
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+    margin-right: 20rem;
+}
+
+.menu li:hover {
+    background-color: var(--dr-color);
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.menu li {
+    padding: 5px 14px;
+}
+
+
+/* DROPDOWN MENU */
+
+.services {
+    position: relative;
+}
+
+.dropdown {
+    background-color: var(--bg-color);
+    padding: 2rem 0;
+    position: absolute;
+    /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 10px;
+    top: 40px;
+}
+
+.dropdown li+li {
+    margin-top: 10px;
+}
+
+.dropdown li {
+    padding: 1rem 1rem;
+    width: 10em;
+    text-align: center;
+}
+
+.dropdown li:hover {
+    background-color: var(--dr-color);
+}
+
+.services:hover .dropdown {
+    display: block;
+}
+
+
+/*RESPONSIVE NAVBAR MENU STARTS*/
+
+
+/* CHECKBOX HACK */
+
+input[type=checkbox] {
+    display: none;
+}
+
+
+/*HAMBURGER MENU*/
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+
+
+/* APPLYING MEDIA QUERIES */
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20rem 7%;
+    background: var(--bg-color);
+    min-height: 100vh;
+    gap: 15px;
+    padding-top: 4rem;
+}
+
+.container .content {
+    flex: 1 1 400px;
+}
+
+.container .image {
+    flex: 1 1 400px;
+}
+
+h1 {
+    color: #1D8DFF;
+    text-align: center;
+    background: var(--bg-color);
+    font-size: 3rem;
+    padding-right: 22rem;
+}
+
+.container p {
+    max-height: 20rem;
+    padding-bottom: 20rem;
+    margin-left: 13rem;
+    max-width: 35rem;
+}
+
+.container .content .btn {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 0;
+    background: var(--style-color);
+    text-align: center;
+    color: #fff;
+}
