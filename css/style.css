@@ -552,8 +552,6 @@ div[role="progressbar"]::before {
     align-items: center;
 }
 
-.box-title {
-    display: flex;
+h3 {
     text-align: center;
-    padding-left: 20px;
 }
