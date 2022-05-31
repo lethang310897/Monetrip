@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <title>Document</title>
 </head>
 
@@ -29,7 +31,7 @@
                         <li><a href="/">Home</a></li>
 
                         <li class="services">
-                            <a href="/">About</a>
+                            <a href="/">About <i class="fa-solid fa-angle-down"></i></a>
                             <!-- DROPDOWN MENU -->
                             <ul class="dropdown">
                                 <li><a href="#">VRapplications</a></li>
@@ -56,24 +58,24 @@
 
 
                 <a href="# " class="btn ">Join Wishlist</a>
-                <div class="cout-down ">
+                <div class="cout-down">
 
-                    <div>
+                    <div class="cout-down_item">
                         <p>DAYS</p>
                         <div role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="--value:15"></div>
                     </div>
 
-                    <div>
+                    <div class="cout-down_item">
                         <p>HOURS</p>
                         <div role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="--value:20"></div>
                     </div>
 
-                    <div>
+                    <div class="cout-down_item">
                         <p>MINUTES</p>
                         <div role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="--value:35"></div>
                     </div>
 
-                    <div>
+                    <div class="cout-down_item">
                         <p>SECONDS</p>
                         <div role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="--value:30"></div>
                     </div>
@@ -94,26 +96,42 @@
 
             </div>
             <div class="image">
-                <img src="./image/img1.png ">
+                <div class="image-item">
+                    <img src="./image/img1.png ">
+                    <h3>Adventure travel</h3>
+                </div>
+
                 <img src="./image/img2.png ">
+
             </div>
         </section>
     </div>
 
+    <!-- start vrapplication -->
+
     <div class="banner">
-        <h2>VRapplication</h2>
+        <div class="banner_title">
+            <h2>VRapplication</h2>
+            <img src="image/swift.png" alt="">
+        </div>
         <!--start vrapplication -->
         <div class="banner-image">
+            <div class="overlay"></div>
+            <img src="./image/img3.png" alt="">
             <div class="banner-text">
                 <h2>TRAVEL TO THE NEXT LEVEL WITH WEB3 APPLICATIONS</h2>
                 <p>Experience your next trip to the fullest with Monetrip’s Web3 applications. Monetrip offers you advanced solutions that get all the traveling hassles out of your head. Let’s see what we bring on the table.</p>
             </div>
         </div>
     </div>
+
     <!-- end vrapplication -->
     <!--start features -->
     <div class="features">
-        <h2>Features</h2>
+        <div class="features_tittle">
+            <h2>FEATURES</h2>
+            <img src="image/swift.png" alt="">
+        </div>
         <div class="box-size">
 
             <div class="box-imgtheme">
@@ -175,7 +193,10 @@
 
     <!-- starts tokenomics -->
     <div class="tokenomics">
-        <h2>TOKENOMICS</h2>
+        <div class="tokenomics_title">
+            <h2>TOKENOMICS</h2>
+            <img src="image/swift.png" alt="">
+        </div>
         <div class="pie-chart-container">
 
             <div class="chart_id">
@@ -340,66 +361,248 @@
 
             </div>
         </div>
+    </div>
 
-        <!-- ends tokenomics -->
-        <!-- start roadmap -->
-        <div class="roadmap">
+    <!-- ends tokenomics -->
+    <!-- start roadmap -->
+    <div class="roadmap">
+        <div class="roadmap_tittle">
             <h2>ROADMAP</h2>
-            <div class="box-style">
-                <div class="box-style-tour">
-                    <img src="image/img16.png" alt="">
-                    <div class="box-line"></div>
-                    <div class="box-title">
-                        <h3>Q1/2022</h3>
-                        <ul>
+            <img src="image/swift.png" alt="">
+        </div>
 
-                            <li>Team formation</li>
-                            <li>Contact Partners & Backers</li>
-                        </ul>
-                    </div>
-                </div>
+        <div class="box-style">
+            <div class="box-style-tour">
+                <img src="image/img16.png" alt="">
+                <div class="box-line"></div>
+                <div class="box-title">
+                    <h3>Q1/2022</h3>
+                    <ul>
 
-                <div class="box-style-tour">
-                    <img src="image/img16.png" alt="">
-                    <div class="box-line"></div>
-                    <div class="box-title">
-                        <ul>
-                            <li>Q1/2022</li>
-                            <li>Team formation</li>
-                            <li>Contact Partners & Backers</li>
-                        </ul>
-                    </div>
+                        <li>Team formation</li>
+                        <li>Contact Partners & Backers</li>
+                    </ul>
                 </div>
-                <div class="box-style-tour">
-                    <img src="image/img16.png" alt="">
-                    <div class="box-line"></div>
-                    <div class="box-title">
-                        <ul>
-                            <li style="font-weight:bold;"> Q1/2022</li>
-                            <li>Team formation</li>
-                            <li>Contact Partners & Backers</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="box-style-tour">
-                    <img src="image/img16.png" alt="">
-                    <div class="box-line"></div>
-                    <div class="box-title">
-                        <ul>
-                            <li>Q1/2022</li>
-                            <li>Team formation</li>
-                            <li>Contact Partners & Backers</li>
-                        </ul>
-                    </div>
-                </div>
+            </div>
 
+            <div class="box-style-tour">
+                <img src="image/img16.png" alt="">
+                <div class="box-line"></div>
+                <div class="box-title">
+                    <h3>Q1/2022</h3>
+                    <ul>
+
+                        <li>Team formation</li>
+                        <li>Contact Partners & Backers</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box-style-tour">
+                <img src="image/img16.png" alt="">
+                <div class="box-line"></div>
+                <div class="box-title">
+                    <h3>Q1/2022</h3>
+                    <ul>
+
+                        <li>Team formation</li>
+                        <li>Contact Partners & Backers</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box-style-tour">
+                <img src="image/img16.png" alt="">
+                <div class="box-line"></div>
+                <div class="box-title">
+                    <h3>Q1/2022</h3>
+                    <ul>
+
+                        <li>Team formation</li>
+                        <li>Contact Partners & Backers</li>
+                    </ul>
+                </div>
             </div>
 
 
         </div>
-        <!-- end roadmap -->
-        <script src="./js/script.js"></script>
+        <div class="yearQ">
+            <div class="s1">2021</div>
+            <div class="s1">2022</div>
+            <div class="s1">2023</div>
+        </div>
 
+    </div>
+    <!-- end roadmap -->
+    <!-- team start -->
+    <div class="wrapper">
+        <div class="team">
+            <div class="team_title">
+                <h2>TEAM</h2>
+                <img src="./image/swift.png" alt="">
+            </div>
+
+            <div class="member-list">
+                <img src="./image/member1.png" alt=" ">
+                <div class="inforamtion-member ">
+                    <h3>tung do</h3>
+                    <h4>Co-founder & CEO</h4>
+                    <p>Co-Founder & CEO of TUN Travel. Tung Do has had over 20 years of experience in the travel industry. With his knowledge and passion, Tung oversees all the business activities and operational processes.</p>
+                    <div class="icons">
+
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper ava-list">
+                <div class="swiper ava-list_member">
+                    <div class="swiper ava-member">
+                        <img src="./image/ava1.png" alt="">
+                        <div class="name_member">
+                            <h3>tung do</h3>
+                            <h3>Co-founder & CEO</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper ava-list_member">
+                    <div class="swiper ava-member">
+                        <img src="./image/ava2.png" alt="">
+                        <div class="name_member">
+                            <h3>tung do</h3>
+                            <h3>Co-founder & CEO</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper ava-list_member">
+                    <div class="swiper ava-member">
+                        <img src="./image/ava3.png" alt="">
+                        <div class="name_member">
+                            <h3>tung do</h3>
+                            <h3>Co-founder & CEO</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper ava-list_member">
+                    <div class="swiper ava-member">
+                        <img src="./image/ava4.png" alt="">
+                        <div class="name_member">
+                            <h3>tung do</h3>
+                            <h3>Co-founder & CEO</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper ava-list_member">
+                    <div class="swiper ava-member">
+                        <img src="./image/ava5.png" alt="">
+                        <div class="name_member">
+                            <h3>tung do</h3>
+                            <h3>Co-founder & CEO</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </div>
+    <!-- team end -->
+
+
+    <div class="wrapper">
+        <div class="partner">
+            <div class="partner_t">
+                <h2>PARTNERS</h2>
+                <img src="image/swift.png" alt="">
+            </div>
+
+            <div class="partner_hotel">
+                <div class="partners_tittle">
+                    <h3>30+</h3>
+                    <h4>Hotel</h4>
+                </div>
+
+                <div class="partners_hotel-item">
+                    <div class="partner"><img src="./image/Caravelle saigon.png" alt=""></div>
+                    <div class="partner"><img src="./image/Caravelle saigon.png" alt=""></div>
+                    <div class="partner"><img src="./image/Caravelle saigon.png" alt=""></div>
+                    <div class="partner"> <img src="./image/Caravelle saigon.png" alt=""></div>
+                    <div class="partner"> <img src="./image/Caravelle saigon.png" alt=""></div>
+                    <div class="partner"> <img src="./image/Caravelle saigon.png" alt=""></div>
+                    <div class="partner"> <img src="./image/Caravelle saigon.png" alt=""></div>
+                    <div class="partner"> <img src="./image/Caravelle saigon.png" alt=""></div>
+                    <div class="partner"> <img src="./image/Caravelle saigon.png" alt=""></div>
+                    <div class="partner"> <img src="./image/Caravelle saigon.png" alt=""></div>
+                    <div class="partner"> <img src="./image/Caravelle saigon.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="media">
+            <div class="media-support">
+                <div class="media_title">
+                    <h3>10+</h3>
+                    <h4>Media</h4>
+                </div>
+                <div class="media_support-item">
+                    <div class="media-item "><img src="./image/media.png" alt=""></div>
+                    <div class="media-item "><img src="./image/media.png" alt=""></div>
+                    <div class="media-item "><img src="./image/media.png" alt=""></div>
+                    <div class="media-item "><img src="./image/media.png" alt=""></div>
+                    <div class="media-item "><img src="./image/media.png" alt=""></div>
+                    <div class="media-item "><img src="./image/media.png" alt=""></div>
+                    <div class="media-item "><img src="./image/media.png" alt=""></div>
+                    <div class="media-item "><img src="./image/media.png" alt=""></div>
+                    <div class="media-item "><img src="./image/media.png" alt=""></div>
+                    <div class="media-item "><img src="./image/media.png" alt=""></div>
+                    <div class="media-item "><img src="./image/media.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="box-container">
+            <div class="box">
+                <div class="footer-logo">
+                    <img src="image/FooterLogo.png" alt="">
+                </div>
+                <h3>Decentralize data, revolutionize travel</h3>
+                <div class="shared">
+                    <a href="" class="fab fa-twitter"></a>
+                    <a href="" class="fab fa-facebook-f"></a>
+                    <a href="" class="fab fa-instagram"></a>
+                    <a href="" class="fab fa-linkedin"></a>
+                    <a href="" class="fab fa-telegram"></a>
+                    <a href="" class="fab fa-youtube"></a>
+                </div>
+            </div>
+            <div class="box">
+                <h4>For invesstors</h4>
+                <a href="#" class="links">Why invest</a>
+                <a href="#" class="links">How it works</a>
+                <a href="#" class="links">Whitepaper</a>
+                <a href="#" class="links">Privacy policy</a>
+            </div>
+            <div class="box">
+                <h4>Crypto</h4>
+                <a href="#" class="links">Why invest</a>
+                <a href="#" class="links">Whitepaper</a>
+                <a href="#" class="links">Lite paper</a>
+                <a href="#" class="links">Token DPA</a>
+            </div>
+            <div class="box">
+                <h4>Company</h4>
+                <a href="#" class="links">About</a>
+                <a href="#" class="links">Contact</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="./js/script.js "></script>
 </body>
 
 
