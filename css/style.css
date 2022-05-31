@@ -884,6 +884,16 @@ h3 {
     color: #03294E;
 }
 
+.shared :hover {
+    color: var(--style-color);
+}
+
 .links {
     color: #606569;
+}
+
+.links:hover {
+    color: var(--style-color);
+    padding-right: 2rem;
+    transition: all 0.6s linear;
 }
